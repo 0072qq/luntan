@@ -1,6 +1,8 @@
 package com.community.test.controller;
 
 import com.community.test.dto.accessTokenDTO;
+import com.community.test.mapper.UserMapper;
+import com.community.test.model.User;
 import com.community.test.utils.GithubProvider;
 import com.community.test.utils.GithubUser;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +12,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.UUID;
 
 /**
  * @program: TestPro
@@ -21,6 +24,8 @@ public class AuthorizeController {
 
     @Autowired
     private GithubProvider provider;
+    @Autowired
+    private UserMapper userMapper;
 
     @Value("${github.client.id}")
     private String clientId;
@@ -45,6 +50,15 @@ public class AuthorizeController {
         System.out.println(user);
 
         if(user!=null){
+            User u = new User();
+
+            u.setToken(UUID.randomUUID().toString());
+            u.setUsername(user.getName());
+            u.setAccount_id(String.valueOf(user.getId()));
+            u.setGmt_create(System.currentTimeMillis());
+            u.setGmt_modified(u.getGmt_create());
+
+            userMapper.insertUser(u);
             //存入cookie session
             request.getSession().setAttribute("user",user);
             return "redirect:/";
