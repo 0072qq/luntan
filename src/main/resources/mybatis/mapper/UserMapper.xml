@@ -5,4 +5,8 @@
     <insert id="insertUser" parameterType="user">
         insert into USER(USERNAME,ACCOUNT_ID,TOKEN,GMT_CREATE,GMT_MODIFIED) values (#{username},#{account_id},#{token},#{gmt_create},#{gmt_modified});
     </insert>
+
+    <select id="findByToken" parameterType="String" resultType="user">
+        select * from USER where TOKEN=#{token}
+    </select>
 </mapper>
