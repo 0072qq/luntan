@@ -1,4 +1,5 @@
 package com.community.test.controller;
+import	java.util.ArrayList;
 
 import com.community.test.mapper.UserMapper;
 import com.community.test.model.User;
@@ -8,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.util.Arrays;
 
 /**
  * @program: TestPro
@@ -21,26 +24,27 @@ public class indexController {
     private UserMapper userMapper;
 
     @RequestMapping("/")
-    public String Welcome(HttpServletRequest res) {
+    public String Welcome(HttpServletRequest res, HttpServletResponse resp) {
 
         Cookie[] cookies = res.getCookies();
-
-        if(cookies.length == 0){
-            return "redirect:/";
+        if(cookies==null){
+            System.out.println("no cookie");
+            return "index";
         }
-        for (Cookie cookie:
-             cookies) {
-            if("token".equals(cookie.getName())){
-                String token = cookie.getValue();
-                User user = userMapper.findByToken(token);
-                if(user!=null){
-                    res.getSession().setAttribute("user",user);
-                    System.out.println(user);
+        else{
+            for (Cookie cookie:
+                    cookies) {
+                if("token".equals(cookie.getName())){
+                    String token = cookie.getValue();
+                    User user = userMapper.findByToken(token);
+                    if(user!=null){
+                        res.getSession().setAttribute("user",user);
+                        System.out.println(user);
+                    }
+                    break;
                 }
-                break;
             }
         }
-
         return "index";
     }
 }

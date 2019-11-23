@@ -11,9 +11,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.servlet.ServletException;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 import java.util.UUID;
 
 /**
@@ -66,7 +68,7 @@ public class AuthorizeController {
             //存入cookie session
 //            request.getSession().setAttribute("user",user);
             response.addCookie(new Cookie("token",token));
-            return "redirect:/";
+            return "forward:/publish";
         }else {
             //重新登录
             return "redirect:/";
