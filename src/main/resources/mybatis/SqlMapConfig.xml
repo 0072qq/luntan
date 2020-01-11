@@ -4,5 +4,6 @@
 <configuration>
     <typeAliases>
         <typeAlias type="com.community.test.model.User" alias="user"></typeAlias>
+        <typeAlias type="com.community.test.model.Question" alias="question"></typeAlias>
     </typeAliases>
 </configuration>

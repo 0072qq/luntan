@@ -1,0 +1,507 @@
+2019-11-28 09:01:09.772  INFO 8552 --- [restartedMain] c.c.t.TestApplication                    : Starting TestApplication on dell-zx with PID 8552 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by 加雷斯 贝尔 in D:\JavaProiect\SpringBoot\TestPro)
+2019-11-28 09:01:09.772  INFO 8552 --- [restartedMain] c.c.t.TestApplication                    : No active profile set, falling back to default profiles: default
+2019-11-28 09:01:10.256  WARN 8552 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2019-11-28 09:01:10.365  INFO 8552 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8880 (http)
+2019-11-28 09:01:10.365  INFO 8552 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-11-28 09:01:10.365  INFO 8552 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 09:01:10.397  INFO 8552 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-11-28 09:01:10.397  INFO 8552 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 625 ms
+2019-11-28 09:01:10.412  INFO 8552 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Starting...
+2019-11-28 09:01:10.443  INFO 8552 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Start completed.
+2019-11-28 09:01:10.443  INFO 8552 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2019-11-28 09:01:10.647  INFO 8552 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:01:10.678  INFO 8552 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-28 09:01:10.787  INFO 8552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-28 09:01:10.803  INFO 8552 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8880 (http) with context path ''
+2019-11-28 09:01:10.803  INFO 8552 --- [restartedMain] c.c.t.TestApplication                    : Started TestApplication in 1.12 seconds (JVM running for 133.96)
+2019-11-28 09:01:10.803  INFO 8552 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-11-28 09:04:36.582  INFO 8552 --- [Thread-29] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:04:36.597  INFO 8552 --- [Thread-29] c.z.h.HikariDataSource                   : HikariPool-3 - Shutdown initiated...
+2019-11-28 09:04:36.972  INFO 8552 --- [Thread-29] c.z.h.HikariDataSource                   : HikariPool-3 - Shutdown completed.
+2019-11-28 09:04:37.730  INFO 8552 --- [restartedMain] c.c.t.TestApplication                    : Starting TestApplication on dell-zx with PID 8552 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by 加雷斯 贝尔 in D:\JavaProiect\SpringBoot\TestPro)
+2019-11-28 09:04:37.730  INFO 8552 --- [restartedMain] c.c.t.TestApplication                    : No active profile set, falling back to default profiles: default
+2019-11-28 09:04:38.183  WARN 8552 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2019-11-28 09:04:38.292  INFO 8552 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8880 (http)
+2019-11-28 09:04:38.292  INFO 8552 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-11-28 09:04:38.292  INFO 8552 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 09:04:38.308  INFO 8552 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-11-28 09:04:38.308  INFO 8552 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 578 ms
+2019-11-28 09:04:38.324  INFO 8552 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-4 - Starting...
+2019-11-28 09:04:38.339  INFO 8552 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-4 - Start completed.
+2019-11-28 09:04:38.339  INFO 8552 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2019-11-28 09:04:38.548  INFO 8552 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:04:38.579  INFO 8552 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-28 09:04:38.751  INFO 8552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-28 09:04:38.813  INFO 8552 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8880 (http) with context path ''
+2019-11-28 09:04:38.813  INFO 8552 --- [restartedMain] c.c.t.TestApplication                    : Started TestApplication in 1.199 seconds (JVM running for 341.97)
+2019-11-28 09:04:38.813  INFO 8552 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-11-28 09:06:13.861  INFO 8552 --- [Thread-34] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:06:13.861  INFO 8552 --- [Thread-34] c.z.h.HikariDataSource                   : HikariPool-4 - Shutdown initiated...
+2019-11-28 09:06:14.195  INFO 8552 --- [Thread-34] c.z.h.HikariDataSource                   : HikariPool-4 - Shutdown completed.
+2019-11-28 09:06:14.741  INFO 8552 --- [restartedMain] c.c.t.TestApplication                    : Starting TestApplication on dell-zx with PID 8552 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by 加雷斯 贝尔 in D:\JavaProiect\SpringBoot\TestPro)
+2019-11-28 09:06:14.741  INFO 8552 --- [restartedMain] c.c.t.TestApplication                    : No active profile set, falling back to default profiles: default
+2019-11-28 09:06:15.038  WARN 8552 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2019-11-28 09:06:15.132  INFO 8552 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8880 (http)
+2019-11-28 09:06:15.132  INFO 8552 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-11-28 09:06:15.132  INFO 8552 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 09:06:15.179  INFO 8552 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-11-28 09:06:15.179  INFO 8552 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 438 ms
+2019-11-28 09:06:15.210  INFO 8552 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-5 - Starting...
+2019-11-28 09:06:15.226  INFO 8552 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-5 - Start completed.
+2019-11-28 09:06:15.226  INFO 8552 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2019-11-28 09:06:15.366  INFO 8552 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:06:15.382  INFO 8552 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-28 09:06:15.460  INFO 8552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-28 09:06:15.491  INFO 8552 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8880 (http) with context path ''
+2019-11-28 09:06:15.491  INFO 8552 --- [restartedMain] c.c.t.TestApplication                    : Started TestApplication in 0.796 seconds (JVM running for 438.639)
+2019-11-28 09:06:15.491  INFO 8552 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-11-28 09:07:35.190  INFO 8552 --- [Thread-39] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:07:35.190  INFO 8552 --- [Thread-39] c.z.h.HikariDataSource                   : HikariPool-5 - Shutdown initiated...
+2019-11-28 09:07:35.548  INFO 8552 --- [Thread-39] c.z.h.HikariDataSource                   : HikariPool-5 - Shutdown completed.
+2019-11-28 09:07:36,032  INFO TestApplication:55 - Starting TestApplication on dell-zx with PID 8552 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by 加雷斯 贝尔 in D:\JavaProiect\SpringBoot\TestPro)
+2019-11-28 09:07:36,032  INFO TestApplication:651 - No active profile set, falling back to default profiles: default
+2019-11-28 09:07:36,318  WARN Registry:173 - The MBean registry cannot be disabled because it has already been initialised
+2019-11-28 09:07:36,380  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8880 (http)
+2019-11-28 09:07:36,380  INFO StandardService:173 - Starting service [Tomcat]
+2019-11-28 09:07:36,380  INFO StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 09:07:36,411  INFO [/]:173 - Initializing Spring embedded WebApplicationContext
+2019-11-28 09:07:36,411  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 379 ms
+2019-11-28 09:07:36,427  INFO HikariDataSource:110 - HikariPool-6 - Starting...
+2019-11-28 09:07:36,427  INFO HikariDataSource:123 - HikariPool-6 - Start completed.
+2019-11-28 09:07:36,443  INFO H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2019-11-28 09:07:36,552  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:07:36,568  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-11-28 09:07:36,630  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-28 09:07:36,646  INFO TomcatWebServer:204 - Tomcat started on port(s): 8880 (http) with context path ''
+2019-11-28 09:07:36,646  INFO TestApplication:61 - Started TestApplication in 0.666 seconds (JVM running for 519.8)
+2019-11-28 09:07:36,646  INFO ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2019-11-28 09:09:40,158  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:09:40,158  INFO HikariDataSource:350 - HikariPool-6 - Shutdown initiated...
+2019-11-28 09:09:40,439  INFO HikariDataSource:352 - HikariPool-6 - Shutdown completed.
+2019-11-28 09:09:40,853 ERROR SpringApplication:826 - Application run failed
+java.lang.IllegalStateException: java.io.FileNotFoundException: D:\JavaProiect\SpringBoot\TestPro\log4j.xml (系统找不到指定的文件。)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:323) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:287) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:245) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:222) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at com.community.test.TestApplication.main(TestApplication.java:10) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+Caused by: java.io.FileNotFoundException: D:\JavaProiect\SpringBoot\TestPro\log4j.xml (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_181]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_181]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_181]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_181]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90) ~[?:1.8.0_181]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188) ~[?:1.8.0_181]
+	at java.net.URL.openStream(URL.java:1045) ~[?:1.8.0_181]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:316) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	... 19 more
+2019-11-28 09:10:43,660 ERROR SpringApplication:826 - Application run failed
+java.lang.IllegalStateException: java.io.FileNotFoundException: D:\log4j.xml (系统找不到指定的文件。)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:323) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:287) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:245) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:222) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at com.community.test.TestApplication.main(TestApplication.java:10) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+Caused by: java.io.FileNotFoundException: D:\log4j.xml (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_181]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_181]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_181]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_181]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90) ~[?:1.8.0_181]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188) ~[?:1.8.0_181]
+	at java.net.URL.openStream(URL.java:1045) ~[?:1.8.0_181]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:316) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	... 19 more
+2019-11-28 09:11:40,016 ERROR SpringApplication:826 - Application run failed
+java.lang.IllegalStateException: java.io.FileNotFoundException: D:\JavaProiect\SpringBoot\TestPro\classprth:log4j.xml (系统找不到指定的文件。)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:323) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:287) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:245) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:222) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at com.community.test.TestApplication.main(TestApplication.java:10) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+Caused by: java.io.FileNotFoundException: D:\JavaProiect\SpringBoot\TestPro\classprth:log4j.xml (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_181]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_181]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_181]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_181]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90) ~[?:1.8.0_181]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188) ~[?:1.8.0_181]
+	at java.net.URL.openStream(URL.java:1045) ~[?:1.8.0_181]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:316) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	... 19 more
+2019-11-28 09:19:31,272  INFO TestApplication:55 - Starting TestApplication on dell-zx with PID 24428 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by 加雷斯 贝尔 in D:\JavaProiect\SpringBoot\TestPro)
+2019-11-28 09:19:31,288  INFO TestApplication:651 - No active profile set, falling back to default profiles: default
+2019-11-28 09:19:31,319  WARN Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2019-11-28 09:19:31,366  INFO DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-28 09:19:31,366  INFO DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-28 09:19:33,081  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8880 (http)
+2019-11-28 09:19:33,097  INFO StandardService:173 - Starting service [Tomcat]
+2019-11-28 09:19:33,097  INFO StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 09:19:33,518  INFO [/]:173 - Initializing Spring embedded WebApplicationContext
+2019-11-28 09:19:33,518  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 2152 ms
+2019-11-28 09:19:33,612  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-11-28 09:19:33,946  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-11-28 09:19:33,961  INFO H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2019-11-28 09:19:34,290  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:19:34,345  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-11-28 09:19:34,470  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-28 09:19:34,517  INFO TomcatWebServer:204 - Tomcat started on port(s): 8880 (http) with context path ''
+2019-11-28 09:19:34,517  INFO TestApplication:61 - Started TestApplication in 3.836 seconds (JVM running for 5.77)
+2019-11-28 09:19:38,671  INFO [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 09:19:38,671  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2019-11-28 09:19:38,680  INFO DispatcherServlet:547 - Completed initialization in 9 ms
+2019-11-28 09:19:38,691  WARN InterceptorHandler:30 - no user
+2019-11-28 09:22:02,774  INFO TestApplication:55 - Starting TestApplication on dell-zx with PID 30228 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by 加雷斯 贝尔 in D:\JavaProiect\SpringBoot\TestPro)
+2019-11-28 09:22:02,790  INFO TestApplication:651 - No active profile set, falling back to default profiles: default
+2019-11-28 09:22:02,852  INFO DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-28 09:22:02,868  INFO DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-28 09:22:04,559  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8880 (http)
+2019-11-28 09:22:04,559  INFO StandardService:173 - Starting service [Tomcat]
+2019-11-28 09:22:04,559  INFO StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 09:22:04,652  INFO [/]:173 - Initializing Spring embedded WebApplicationContext
+2019-11-28 09:22:04,652  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 1784 ms
+2019-11-28 09:22:04,699  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-11-28 09:22:04,840  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-11-28 09:22:04,902  INFO H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2019-11-28 09:22:05,232  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:22:05,294  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-11-28 09:22:05,435  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-28 09:22:05,482  INFO TomcatWebServer:204 - Tomcat started on port(s): 8880 (http) with context path ''
+2019-11-28 09:22:05,482  INFO TestApplication:61 - Started TestApplication in 3.407 seconds (JVM running for 5.234)
+2019-11-28 09:22:15,253  INFO [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 09:22:15,254  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2019-11-28 09:22:15,264  INFO DispatcherServlet:547 - Completed initialization in 9 ms
+2019-11-28 09:22:15,284  WARN InterceptorHandler:30 - no user
+2019-11-28 09:25:35,422  INFO TestApplication:55 - Starting TestApplication on dell-zx with PID 13156 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by 加雷斯 贝尔 in D:\JavaProiect\SpringBoot\TestPro)
+2019-11-28 09:25:35,437  INFO TestApplication:651 - No active profile set, falling back to default profiles: default
+2019-11-28 09:25:35,500  INFO DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-28 09:25:35,500  INFO DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-28 09:25:37,094  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8880 (http)
+2019-11-28 09:25:37,094  INFO StandardService:173 - Starting service [Tomcat]
+2019-11-28 09:25:37,094  INFO StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 09:25:37,188  INFO [/]:173 - Initializing Spring embedded WebApplicationContext
+2019-11-28 09:25:37,188  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 1688 ms
+2019-11-28 09:25:37,219  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-11-28 09:25:37,469  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-11-28 09:25:37,469  INFO H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2019-11-28 09:25:37,848  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:25:37,894  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-11-28 09:25:38,035  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-28 09:25:38,082  INFO TomcatWebServer:204 - Tomcat started on port(s): 8880 (http) with context path ''
+2019-11-28 09:25:38,082  INFO TestApplication:61 - Started TestApplication in 3.238 seconds (JVM running for 5.159)
+2019-11-28 09:25:47,523  INFO [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 09:25:47,523  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2019-11-28 09:25:47,529  INFO DispatcherServlet:547 - Completed initialization in 6 ms
+2019-11-28 09:26:00,288  WARN InterceptorHandler:33 - no user
+2019-11-28 09:26:59,870  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:26:59,870  INFO HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2019-11-28 09:27:00,167  INFO HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2019-11-28 09:27:00,691  INFO TestApplication:55 - Starting TestApplication on dell-zx with PID 13156 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by 加雷斯 贝尔 in D:\JavaProiect\SpringBoot\TestPro)
+2019-11-28 09:27:00,691  INFO TestApplication:651 - No active profile set, falling back to default profiles: default
+2019-11-28 09:27:01,097  WARN Registry:173 - The MBean registry cannot be disabled because it has already been initialised
+2019-11-28 09:27:01,207  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8880 (http)
+2019-11-28 09:27:01,207  INFO StandardService:173 - Starting service [Tomcat]
+2019-11-28 09:27:01,207  INFO StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 09:27:01,254  INFO [/]:173 - Initializing Spring embedded WebApplicationContext
+2019-11-28 09:27:01,254  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 547 ms
+2019-11-28 09:27:01,285  INFO HikariDataSource:110 - HikariPool-2 - Starting...
+2019-11-28 09:27:01,300  INFO HikariDataSource:123 - HikariPool-2 - Start completed.
+2019-11-28 09:27:01,300  INFO H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2019-11-28 09:27:01,441  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:27:01,457  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-11-28 09:27:01,535  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-28 09:27:01,550  INFO TomcatWebServer:204 - Tomcat started on port(s): 8880 (http) with context path ''
+2019-11-28 09:27:01,550  INFO TestApplication:61 - Started TestApplication in 0.913 seconds (JVM running for 88.631)
+2019-11-28 09:27:01,550  INFO ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2019-11-28 09:27:13,519  INFO [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 09:27:13,520  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2019-11-28 09:27:13,526  INFO DispatcherServlet:547 - Completed initialization in 6 ms
+2019-11-28 09:27:13,527  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:44,966  INFO TestApplication:55 - Starting TestApplication on dell-zx with PID 8452 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by 加雷斯 贝尔 in D:\JavaProiect\SpringBoot\TestPro)
+2019-11-28 09:27:44,981  INFO TestApplication:651 - No active profile set, falling back to default profiles: default
+2019-11-28 09:27:45,028  INFO DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-28 09:27:45,028  INFO DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-28 09:27:46,654  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8880 (http)
+2019-11-28 09:27:46,669  INFO StandardService:173 - Starting service [Tomcat]
+2019-11-28 09:27:46,669  INFO StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 09:27:46,763  INFO [/]:173 - Initializing Spring embedded WebApplicationContext
+2019-11-28 09:27:46,763  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 1735 ms
+2019-11-28 09:27:46,810  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-11-28 09:27:46,997  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-11-28 09:27:46,997  INFO H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2019-11-28 09:27:47,334  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:27:47,381  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-11-28 09:27:47,522  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-28 09:27:47,569  INFO TomcatWebServer:204 - Tomcat started on port(s): 8880 (http) with context path ''
+2019-11-28 09:27:47,569  INFO TestApplication:61 - Started TestApplication in 3.247 seconds (JVM running for 5.179)
+2019-11-28 09:27:55,566  INFO [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 09:27:55,567  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2019-11-28 09:27:55,573  INFO DispatcherServlet:547 - Completed initialization in 6 ms
+2019-11-28 09:27:55,587  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,597  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,602  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,607  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,613  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,618  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,623  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,628  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,633  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,638  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,643  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,649  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,653  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,657  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,662  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,668  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,672  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,677  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,682  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,686  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,853  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,861  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,868  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,879  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,890  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,897  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,905  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,913  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,920  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,927  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,934  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,945  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,950  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,955  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,960  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,966  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,971  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,977  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,981  WARN InterceptorHandler:33 - no user
+2019-11-28 09:27:55,986  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:00,998  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:01,004  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:01,010  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:01,017  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:01,024  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:01,029  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:01,033  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:01,039  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:01,047  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:01,051  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:01,057  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:01,063  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:01,068  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:01,073  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:01,080  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:01,084  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:01,090  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:01,095  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:01,099  WARN InterceptorHandler:33 - no user
+2019-11-28 09:28:01,105  WARN InterceptorHandler:33 - no user
+2019-11-28 09:29:30,783  INFO TestApplication:55 - Starting TestApplication on dell-zx with PID 12616 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by 加雷斯 贝尔 in D:\JavaProiect\SpringBoot\TestPro)
+2019-11-28 09:29:30,799  INFO TestApplication:651 - No active profile set, falling back to default profiles: default
+2019-11-28 09:29:30,877  INFO DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-28 09:29:30,877  INFO DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-28 09:29:32,479  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8880 (http)
+2019-11-28 09:29:32,495  INFO StandardService:173 - Starting service [Tomcat]
+2019-11-28 09:29:32,495  INFO StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 09:29:32,620  INFO [/]:173 - Initializing Spring embedded WebApplicationContext
+2019-11-28 09:29:32,620  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 1743 ms
+2019-11-28 09:29:32,651  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-11-28 09:29:32,869  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-11-28 09:29:32,885  INFO H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2019-11-28 09:29:33,213  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:29:33,276  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-11-28 09:29:33,401  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-28 09:29:33,448  INFO TomcatWebServer:204 - Tomcat started on port(s): 8880 (http) with context path ''
+2019-11-28 09:29:33,448  INFO TestApplication:61 - Started TestApplication in 3.302 seconds (JVM running for 5.296)
+2019-11-28 09:29:39,181  INFO [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 09:29:39,182  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2019-11-28 09:29:39,190  INFO DispatcherServlet:547 - Completed initialization in 6 ms
+2019-11-28 09:29:39,202  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:10,314  INFO TestApplication:55 - Starting TestApplication on dell-zx with PID 26556 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by 加雷斯 贝尔 in D:\JavaProiect\SpringBoot\TestPro)
+2019-11-28 09:33:10,329  INFO TestApplication:651 - No active profile set, falling back to default profiles: default
+2019-11-28 09:33:10,392  WARN Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2019-11-28 09:33:10,392  INFO DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-28 09:33:10,392  INFO DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-28 09:33:12,126  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8880 (http)
+2019-11-28 09:33:12,126  INFO StandardService:173 - Starting service [Tomcat]
+2019-11-28 09:33:12,126  INFO StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 09:33:12,219  INFO [/]:173 - Initializing Spring embedded WebApplicationContext
+2019-11-28 09:33:12,219  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 1827 ms
+2019-11-28 09:33:12,266  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-11-28 09:33:12,513  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-11-28 09:33:12,513  INFO H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2019-11-28 09:33:12,841  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:33:12,888  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-11-28 09:33:13,044  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-28 09:33:13,091  INFO TomcatWebServer:204 - Tomcat started on port(s): 8880 (http) with context path ''
+2019-11-28 09:33:13,091  INFO TestApplication:61 - Started TestApplication in 3.392 seconds (JVM running for 5.328)
+2019-11-28 09:33:17,164  INFO [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 09:33:17,165  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2019-11-28 09:33:17,171  INFO DispatcherServlet:547 - Completed initialization in 6 ms
+2019-11-28 09:33:17,184  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,193  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,198  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,202  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,207  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,212  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,217  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,222  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,226  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,232  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,237  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,241  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,247  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,252  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,257  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,262  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,267  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,272  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,277  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,281  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,372  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,383  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,402  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,411  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,423  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,434  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,443  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,450  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,457  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,466  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,478  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,483  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,490  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,498  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,506  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,516  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,522  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,529  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,534  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:17,539  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,550  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,558  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,565  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,573  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,582  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,588  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,593  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,599  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,605  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,610  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,617  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,621  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,626  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,632  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,636  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,641  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,646  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,651  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,655  WARN InterceptorHandler:33 - no user
+2019-11-28 09:33:22,659  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:28,932  INFO TestApplication:55 - Starting TestApplication on dell-zx with PID 13956 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by 加雷斯 贝尔 in D:\JavaProiect\SpringBoot\TestPro)
+2019-11-28 09:35:28,948  INFO TestApplication:651 - No active profile set, falling back to default profiles: default
+2019-11-28 09:35:28,995  INFO DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-28 09:35:29,011  INFO DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-28 09:35:30,620  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8880 (http)
+2019-11-28 09:35:30,635  INFO StandardService:173 - Starting service [Tomcat]
+2019-11-28 09:35:30,635  INFO StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 09:35:30,745  INFO [/]:173 - Initializing Spring embedded WebApplicationContext
+2019-11-28 09:35:30,745  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 1734 ms
+2019-11-28 09:35:30,791  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-11-28 09:35:31,025  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-11-28 09:35:31,040  INFO H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2019-11-28 09:35:31,431  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:35:31,509  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-11-28 09:35:31,665  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-28 09:35:31,712  INFO TomcatWebServer:204 - Tomcat started on port(s): 8880 (http) with context path ''
+2019-11-28 09:35:31,712  INFO TestApplication:61 - Started TestApplication in 3.352 seconds (JVM running for 5.243)
+2019-11-28 09:35:35,443  INFO [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 09:35:35,443  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2019-11-28 09:35:35,450  INFO DispatcherServlet:547 - Completed initialization in 6 ms
+2019-11-28 09:35:35,462  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:35,472  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:35,477  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:35,482  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:35,487  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:35,492  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:35,497  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:35,501  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:35,507  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:35,515  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:35,520  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:35,526  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:35,531  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:35,535  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:35,540  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:35,555  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:35,559  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:35,563  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:35,568  WARN InterceptorHandler:33 - no user
+2019-11-28 09:35:35,572  WARN InterceptorHandler:33 - no user
+2019-11-28 16:53:41,845  INFO TestApplication:55 - Starting TestApplication on dell-zx with PID 5832 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by 加雷斯 贝尔 in D:\JavaProiect\SpringBoot\TestPro)
+2019-11-28 16:53:41,877  INFO TestApplication:651 - No active profile set, falling back to default profiles: default
+2019-11-28 16:53:41,970  INFO DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-28 16:53:41,970  INFO DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-28 16:53:43,637  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8880 (http)
+2019-11-28 16:53:43,653  INFO StandardService:173 - Starting service [Tomcat]
+2019-11-28 16:53:43,653  INFO StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 16:53:43,778  INFO [/]:173 - Initializing Spring embedded WebApplicationContext
+2019-11-28 16:53:43,778  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 1808 ms
+2019-11-28 16:53:43,840  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-11-28 16:53:44,043  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-11-28 16:53:44,112  INFO H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2019-11-28 16:53:44,549  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 16:53:44,627  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-11-28 16:53:44,783  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-28 16:53:44,830  INFO TomcatWebServer:204 - Tomcat started on port(s): 8880 (http) with context path ''
+2019-11-28 16:53:44,830  INFO TestApplication:61 - Started TestApplication in 4.014 seconds (JVM running for 6.607)
+2019-11-28 16:53:55,765  INFO [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 16:53:55,766  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2019-11-28 16:53:55,774  INFO DispatcherServlet:547 - Completed initialization in 8 ms
+2019-11-28 16:53:55,794  WARN InterceptorHandler:33 - no user

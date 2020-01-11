@@ -26,25 +26,25 @@ public class indexController {
     @RequestMapping("/")
     public String Welcome(HttpServletRequest res, HttpServletResponse resp) {
 
-        Cookie[] cookies = res.getCookies();
-        if(cookies==null){
-            System.out.println("no cookie");
-            return "index";
-        }
-        else{
-            for (Cookie cookie:
-                    cookies) {
-                if("token".equals(cookie.getName())){
-                    String token = cookie.getValue();
-                    User user = userMapper.findByToken(token);
-                    if(user!=null){
-                        res.getSession().setAttribute("user",user);
-                        System.out.println(user);
-                    }
-                    break;
-                }
-            }
-        }
+//        Cookie[] cookies = res.getCookies();
+//        if(cookies==null){
+//            System.out.println("no cookie");
+//            return "index";
+//        }
+//        else{
+//            for (Cookie cookie:
+//                    cookies) {
+//                if("token".equals(cookie.getName())){
+//                    String token = cookie.getValue();
+//                    User user = userMapper.findByToken(token);
+//                    if(user!=null){
+//                        res.getSession().setAttribute("user",user);
+//                        System.out.println(user);
+//                    }
+//                    break;
+//                }
+//            }
+//        }
         return "index";
     }
 }
