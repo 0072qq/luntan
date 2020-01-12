@@ -1,8 +1,11 @@
 package com.community.test.controller;
 
+import com.community.test.components.InterceptorHandler;
 import com.community.test.mapper.QuestionMapper;
 import com.community.test.model.Question;
 import com.community.test.model.User;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -35,6 +38,7 @@ public class publishController {
         User user = null;
 
         user = (User) req.getSession().getAttribute("user");
+        System.out.println(user);
 
         if(user == null){
             model.addAttribute("error","用户未登录");

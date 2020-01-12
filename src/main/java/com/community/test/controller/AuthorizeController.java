@@ -64,10 +64,12 @@ public class AuthorizeController {
             u.setGmt_create(System.currentTimeMillis());
             u.setGmt_modified(u.getGmt_create());
 
+            System.out.println("--------------------------------");
             userMapper.insertUser(u);
             //存入cookie session
-//            request.getSession().setAttribute("user",user);
+           // request.getSession().setAttribute("user",u);
             response.addCookie(new Cookie("token",token));
+            request.getSession().setAttribute("user",userMapper.findByToken(token));
             return "forward:/publish";
         }else {
             //重新登录

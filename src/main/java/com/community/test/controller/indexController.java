@@ -23,7 +23,7 @@ public class indexController {
     @Autowired
     private UserMapper userMapper;
 
-    @RequestMapping("/")
+    @RequestMapping("/index")
     public String Welcome(HttpServletRequest res, HttpServletResponse resp) {
 
 //        Cookie[] cookies = res.getCookies();
