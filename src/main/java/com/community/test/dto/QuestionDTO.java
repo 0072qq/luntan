@@ -1,16 +1,10 @@
-package com.community.test.model;
+package com.community.test.dto;
 
+import com.community.test.model.User;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
-/**
- * @program: TestPro
- * @author: WolfSky
- * @create: 2019-11-26 20:02
- **/
 @Data
-public class Question {
+public class QuestionDTO {
 
     private Integer id;
     private String title;
@@ -22,5 +16,7 @@ public class Question {
     private Integer comment_count;
     private Integer like_count;
     private Integer view_count;
+
+    private User user;
 
 }

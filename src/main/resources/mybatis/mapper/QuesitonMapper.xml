@@ -8,4 +8,7 @@
         #{gmt_modify},#{creater},#{tag})
     </insert>
 
+    <select id="getAll" resultType="question">
+        select * from QUESTION
+    </select>
 </mapper>

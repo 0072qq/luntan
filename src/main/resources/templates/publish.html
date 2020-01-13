@@ -16,7 +16,7 @@
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">社区</span>
             </button>
-            <a class="navbar-brand" href="#">社区</a>
+            <a class="navbar-brand" href="index.html">社区</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -53,18 +53,20 @@
             <form action="/publish" method="post">
                 <div class="form-group">
                     <label for="title">问题标题（简单扼要）</label>
-                    <input type="text" class="form-control" id="title" name="title" placeholder="问题标题">
+                    <input type="text" class="form-control" id="title" name="title" placeholder="问题标题" th:value="${title}">
                 </div>
                 <div class="form-group">
                     <label for="title">问题补充（必填）</label>
-                    <textarea name="description" id="description" class="form-control" cols="30" rows="10"></textarea>
+                    <textarea name="description" id="description" class="form-control" cols="30" rows="10" th:text="*{description}"></textarea>
                 </div>
                 <div class="form-group">
                     <label for="tag">添加标签</label>
-                    <input type="text" class="form-control" id="tag" name="tag" placeholder="输入标签，以逗号隔开">
+                    <input type="text" class="form-control" id="tag" name="tag" placeholder="输入标签，以逗号隔开" th:value="${tag}">
                 </div>
 
-                <span class = "alert alert-info alert-dismissible" th:text="${error}"> </span>
+                <div th:if="${error} != null">
+                    <div  class = "alert alert-danger" role="alert" th:text="${error}"></div>
+                </div>
                 <button type="submit" class="btn btn-success" style="float: right">发布</button>
             </form>
 

@@ -1,6 +1,5 @@
 package com.community.test.controller;
 
-import com.community.test.components.InterceptorHandler;
 import com.community.test.mapper.QuestionMapper;
 import com.community.test.model.Question;
 import com.community.test.model.User;
@@ -34,6 +33,23 @@ public class publishController {
     @PostMapping("/publish")
     public String doPublish(Question question, HttpServletRequest req,
                             Model model){
+        //后台校验逻辑，避免前端校验被绕过
+        String title = question.getTitle();
+        String description = question.getDescription();
+        String tag = question.getTag();
+
+        model.addAttribute("title",title);
+        model.addAttribute("description",description);
+        model.addAttribute("tag",tag);
+        if(title==null && "".equals(title)){
+            model.addAttribute("error","标签不能为空");
+            return "publish";
+        }
+        if(description==null && "".equals(description)){
+            model.addAttribute("error","描述不能为空");
+            return "publish";
+        }
+
 
         User user = null;
 

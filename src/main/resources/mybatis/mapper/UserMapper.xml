@@ -3,10 +3,14 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.community.test.mapper.UserMapper">
     <insert id="insertUser" parameterType="user">
-        insert into USER(USERNAME,ACCOUNT_ID,TOKEN,GMT_CREATE,GMT_MODIFIED) values (#{username},#{account_id},#{token},#{gmt_create},#{gmt_modified});
+        insert into USER(USERNAME,ACCOUNT_ID,TOKEN,GMT_CREATE,GMT_MODIFIED,AVATOR_URL) values (#{username},#{account_id},#{token},#{gmt_create},#{gmt_modified},#{avator_url});
     </insert>
 
     <select id="findByToken" parameterType="String" resultType="user">
         select * from USER where TOKEN=#{token}
+    </select>
+
+    <select id="findById" resultType="user" parameterType="int">
+        select * from USER where ID=#{id}
     </select>
 </mapper>

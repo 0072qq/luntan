@@ -63,7 +63,7 @@ public class AuthorizeController {
             u.setAccount_id(String.valueOf(user.getId()));
             u.setGmt_create(System.currentTimeMillis());
             u.setGmt_modified(u.getGmt_create());
-
+            u.setAvator_url(user.getAvatar_url());
             System.out.println("--------------------------------");
             userMapper.insertUser(u);
             //存入cookie session

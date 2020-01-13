@@ -3,6 +3,8 @@ package com.community.test.mapper;
 import com.community.test.model.Question;
 import org.apache.ibatis.annotations.Mapper;
 
+import java.util.List;
+
 /**
  * @program: TestPro
  * @author: WolfSky
@@ -12,4 +14,6 @@ import org.apache.ibatis.annotations.Mapper;
 public interface QuestionMapper {
 
     void create(Question question);
+
+    List<Question> getAll();
 }
