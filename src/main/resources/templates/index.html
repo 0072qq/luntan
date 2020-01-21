@@ -50,7 +50,7 @@
                 <span class="glyphicon glyphicon-list" aria-hidden="true"></span>发现
             </h2>
             <hr>
-            <div class="media" th:each="question:${questionList}">
+            <div class="media" th:each="question:${questionList.questions}">
                 <div class="media-left">
                     <a href="#">
                         <img class="media-object img-rounded" th:src="${question.user.avator_url}">
@@ -66,7 +66,40 @@
                 </div>
             </div>
             <hr>
+            <nav aria-label="Page navigation">
+                <ul class="pagination">
+                    <li th:if="${questionList.showFirstPage}">
+                        <a href="/index?page=1" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li th:if="${questionList.hasPrevious}">
+                        <a th:href="@{/index(page=${questionList.nowPage}-1)}" aria-label="Previous">
+                            <span aria-hidden="true">&lt;</span>
+                        </a>
+                    </li>
+
+                    <li th:each="page:${questionList.pages}" >
+                        <a th:href="@{/index(page=${page})}" th:if="${page}==${questionList.nowPage}" class="active">[[${page}]]</a>
+                        <a th:href="@{/index(page=${page})}" th:if="${page}!=${questionList.nowPage}">[[${page}]]</a>
+                    </li>
+
+
+                    <li th:if="${questionList.hasNext}">
+                        <a th:href="@{/index(page=${questionList.totalPage})}" aria-label="Previous">
+                            <span aria-hidden="true">&gt;</span>
+                        </a>
+                    </li>
+                    <li th:if="${questionList.showEndPage}">
+                        <a th:href="@{/index(page=${questionList.nowPage}+1)}" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
         </div>
+
         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12" style="background-color: gray;height: 600px">
             <h1>热门话题</h1>
         </div>

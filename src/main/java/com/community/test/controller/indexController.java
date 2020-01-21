@@ -2,15 +2,18 @@ package com.community.test.controller;
 import	java.util.ArrayList;
 
 import com.community.test.dto.QuestionDTO;
+import com.community.test.dto.pageDTO;
 import com.community.test.mapper.QuestionMapper;
 import com.community.test.mapper.UserMapper;
 import com.community.test.model.Question;
 import com.community.test.model.User;
 import com.community.test.service.questionService;
+import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
@@ -34,7 +37,9 @@ public class indexController {
 
     @RequestMapping("/index")
     public String Welcome(HttpServletRequest res, HttpServletResponse resp,
-                            Model model) {
+                          Model model,
+                          @RequestParam(name = "page",defaultValue = "1") Integer page,
+                          @RequestParam(name = "size",defaultValue = "2") Integer size) {
 
 //        Cookie[] cookies = res.getCookies();
 //        if(cookies==null){
@@ -57,9 +62,9 @@ public class indexController {
 //        }
 
         System.out.println("-----------------------");
-        List<QuestionDTO> questions = service.getAll();
-        model.addAttribute("questionList",questions);
-        System.out.println(questions);
+        pageDTO pages = service.getPage(page, size);
+        model.addAttribute("questionList",pages);
+        System.out.println(pages);
         return "index";
     }
 }
