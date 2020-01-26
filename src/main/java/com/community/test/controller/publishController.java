@@ -67,7 +67,7 @@ public class publishController {
 
 
         questionMapper.create(question);
-        return "redirect:/";
+        return "redirect:/index";
     }
 
 }

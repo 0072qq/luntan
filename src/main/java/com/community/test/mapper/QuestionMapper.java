@@ -1,5 +1,6 @@
 package com.community.test.mapper;
 
+import com.community.test.dto.QuestionDTO;
 import com.community.test.model.Question;
 import org.apache.ibatis.annotations.Mapper;
 
@@ -16,4 +17,6 @@ public interface QuestionMapper {
     void create(Question question);
 
     List<Question> getAll();
+
+    List<Question> getMyQuestion(Integer id);
 }
