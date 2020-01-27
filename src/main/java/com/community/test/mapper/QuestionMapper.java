@@ -19,4 +19,6 @@ public interface QuestionMapper {
     List<Question> getAll();
 
     List<Question> getMyQuestion(Integer id);
+
+    Question getById(Integer id);
 }

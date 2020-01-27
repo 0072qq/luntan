@@ -15,4 +15,8 @@
     <select id="getMyQuestion" resultType="question" parameterType="int">
         select * from QUESTION where CREATER=#{userId}
     </select>
+
+    <select id="getById" parameterType="int" resultType="question">
+        select * from QUESTION where ID=#{id}
+    </select>
 </mapper>

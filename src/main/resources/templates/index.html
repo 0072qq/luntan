@@ -26,7 +26,10 @@
                     </a>
                 </div>
                 <div class="media-body">
-                    <h4 class="media-heading" th:text="${question.title}">bbbbboot</h4>
+                    <a th:href="@{'/question/'+${question.getId()}}">
+                        <h4 class="media-heading" th:text="${question.title}"></h4>
+                    </a>
+
                     点击进入
                     <span th:text="${question.description}"></span>
                     <span class="text">

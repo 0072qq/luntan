@@ -5,5 +5,6 @@
     <typeAliases>
         <typeAlias type="com.community.test.model.User" alias="user"></typeAlias>
         <typeAlias type="com.community.test.model.Question" alias="question"></typeAlias>
+        <typeAlias type="com.community.test.dto.QuestionDTO" alias="questionDTO"></typeAlias>
     </typeAliases>
 </configuration>
