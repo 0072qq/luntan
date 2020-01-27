@@ -3,14 +3,13 @@ package com.community.test.controller;
 import com.community.test.mapper.QuestionMapper;
 import com.community.test.model.Question;
 import com.community.test.model.User;
+import com.community.test.service.questionService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -24,6 +23,9 @@ public class publishController {
 
     @Autowired
     private QuestionMapper questionMapper;
+
+    @Autowired
+    private questionService questionService;
 
     @RequestMapping(value = "/publish", method = RequestMethod.GET)
     public String publish(){
@@ -62,12 +64,20 @@ public class publishController {
         }
 
         question.setCreater(user.getId());
-        question.setGmt_create(System.currentTimeMillis());
-        question.setGmt_modify(question.getGmt_create());
+        questionService.createOrUpdate(question);
 
-
-        questionMapper.create(question);
         return "redirect:/index";
+    }
+
+    @GetMapping("/publish/{id}")
+    public String edit(@PathVariable(name = "id")Integer id,Model model){
+
+        Question byId = questionMapper.getById(id);
+        model.addAttribute("title",byId.getTitle());
+        model.addAttribute("description",byId.getDescription());
+        model.addAttribute("tag",byId.getTag());
+        model.addAttribute("id",byId.getId());
+        return "publish";
     }
 
 }

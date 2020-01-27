@@ -19,4 +19,8 @@
     <select id="getById" parameterType="int" resultType="question">
         select * from QUESTION where ID=#{id}
     </select>
+
+    <update id="update" parameterType="question">
+        update QUESTION set TITLE=#{title},DESCRIPTION=#{description},GMT_MODIFY=#{gmt_modify},TAG=#{tag} where ID=#{id}
+    </update>
 </mapper>

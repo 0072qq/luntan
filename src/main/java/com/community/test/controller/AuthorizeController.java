@@ -3,6 +3,7 @@ package com.community.test.controller;
 import com.community.test.dto.accessTokenDTO;
 import com.community.test.mapper.UserMapper;
 import com.community.test.model.User;
+import com.community.test.service.userService;
 import com.community.test.utils.GithubProvider;
 import com.community.test.utils.GithubUser;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,6 +39,8 @@ public class AuthorizeController {
     @Value("${github.redirect.uri}")
     private String redirectUri;
 
+    @Autowired
+    private userService userService;
     @GetMapping("/callback")
     public String callback(@RequestParam(name ="code")String code,
                            @RequestParam(name = "state")String state,
@@ -61,11 +64,10 @@ public class AuthorizeController {
             u.setToken(token);
             u.setUsername(user.getName());
             u.setAccount_id(String.valueOf(user.getId()));
-            u.setGmt_create(System.currentTimeMillis());
-            u.setGmt_modified(u.getGmt_create());
             u.setAvator_url(user.getAvatar_url());
             System.out.println("--------------------------------");
-            userMapper.insertUser(u);
+            userService.createrUpdate(u);
+            //userMapper.insertUser(u);
             //存入cookie session
            // request.getSession().setAttribute("user",u);
             response.addCookie(new Cookie("token",token));

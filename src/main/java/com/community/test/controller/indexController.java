@@ -12,6 +12,7 @@ import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -66,5 +67,14 @@ public class indexController {
         model.addAttribute("questionList",pages);
         System.out.println(pages);
         return "index";
+    }
+
+    @GetMapping("/logout")
+    public String logout(HttpServletRequest res, HttpServletResponse resp){
+        res.getSession().removeAttribute("user");
+        Cookie cookie = new Cookie("token",null);
+        cookie.setMaxAge(0);
+        resp.addCookie(cookie);
+        return "redirect:/index";
     }
 }
