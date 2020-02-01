@@ -18,5 +18,4 @@ public class User {
     private Long gmt_create ;
     private Long gmt_modified;
     private String avator_url;//头像地址
-
 }

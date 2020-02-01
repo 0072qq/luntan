@@ -2,6 +2,7 @@ package com.community.test.service;
 
 import com.community.test.dto.QuestionDTO;
 import com.community.test.dto.pageDTO;
+import com.community.test.exception.CustomizeException;
 import com.community.test.mapper.QuestionMapper;
 import com.community.test.mapper.UserMapper;
 import com.community.test.model.Question;
@@ -114,6 +115,9 @@ public class questionService {
 
     public QuestionDTO getById(Integer id) {
         Question question = questionMapper.getById(id);
+        if (question == null){
+            throw new CustomizeException("你找的问题不存在");
+        }
         User user = userMapper.findById(question.getCreater());
         System.out.println(user);
         QuestionDTO dto = new QuestionDTO();
