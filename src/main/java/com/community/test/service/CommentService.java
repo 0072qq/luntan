@@ -7,6 +7,7 @@ import com.community.test.mapper.QuestionMapper;
 import com.community.test.model.Comment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class CommentService {
@@ -16,6 +17,7 @@ public class CommentService {
     @Autowired
     private QuestionMapper questionMapper;
 
+    @Transactional
     public void insert(Comment comment) {
         if(comment.getParentId() == null || comment.getParentId()==0){
             throw new CustomizeException(1001,"未针对具体问题进行评论");

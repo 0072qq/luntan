@@ -14517,3 +14517,303 @@ insert into COMMENT (ID, PARENT_ID, TYPE,
 2020-02-01 20:33:57,140  INFO [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-02-01 20:33:57,140  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
 2020-02-01 20:33:57,152  INFO DispatcherServlet:547 - Completed initialization in 11 ms
+2020-02-02 20:13:14,772  INFO TestApplication:55 - Starting TestApplication on dell-zx with PID 28512 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by Bale in D:\JavaProiect\SpringBoot\TestPro)
+2020-02-02 20:13:14,820  WARN Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-02-02 20:13:14,825  INFO TestApplication:651 - No active profile set, falling back to default profiles: default
+2020-02-02 20:13:15,151  INFO DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-02 20:13:15,153  INFO DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-02 20:13:21,896  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8880 (http)
+2020-02-02 20:13:21,957  INFO StandardService:173 - Starting service [Tomcat]
+2020-02-02 20:13:21,959  INFO StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-02-02 20:13:22,371  INFO [/]:173 - Initializing Spring embedded WebApplicationContext
+2020-02-02 20:13:22,373  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 7220 ms
+2020-02-02 20:13:22,568  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2020-02-02 20:13:23,567  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-02-02 20:13:23,950  INFO H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2020-02-02 20:13:26,156  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-02 20:13:26,443  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2020-02-02 20:13:27,401  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2020-02-02 20:13:27,579  INFO TomcatWebServer:204 - Tomcat started on port(s): 8880 (http) with context path ''
+2020-02-02 20:13:27,596  INFO TestApplication:61 - Started TestApplication in 15.311 seconds (JVM running for 23.207)
+2020-02-02 20:13:43,588  INFO [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-02 20:13:43,589  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2020-02-02 20:13:43,610  INFO DispatcherServlet:547 - Completed initialization in 21 ms
+2020-02-02 20:31:11,535  INFO TestApplication:55 - Starting TestApplication on dell-zx with PID 8760 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by Bale in D:\JavaProiect\SpringBoot\TestPro)
+2020-02-02 20:31:11,549  INFO TestApplication:651 - No active profile set, falling back to default profiles: default
+2020-02-02 20:31:11,614  WARN Jackson2ObjectMapperBuilder:127 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-02-02 20:31:11,638  INFO DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-02 20:31:11,638  INFO DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-02 20:31:14,434  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8880 (http)
+2020-02-02 20:31:14,457  INFO StandardService:173 - Starting service [Tomcat]
+2020-02-02 20:31:14,458  INFO StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-02-02 20:31:15,059  INFO [/]:173 - Initializing Spring embedded WebApplicationContext
+2020-02-02 20:31:15,060  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 3421 ms
+2020-02-02 20:31:15,172  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2020-02-02 20:31:15,760  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-02-02 20:31:15,769  INFO H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2020-02-02 20:31:17,324  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-02 20:31:17,474  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2020-02-02 20:31:18,068  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2020-02-02 20:31:18,237  INFO TomcatWebServer:204 - Tomcat started on port(s): 8880 (http) with context path ''
+2020-02-02 20:31:18,246  INFO TestApplication:61 - Started TestApplication in 7.623 seconds (JVM running for 11.925)
+2020-02-02 20:32:17,121  INFO [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-02 20:32:17,121  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2020-02-02 20:32:17,133  INFO DispatcherServlet:547 - Completed initialization in 12 ms
+2020-02-02 20:40:32,322 ERROR TemplateEngine:1136 - [THYMELEAF][http-nio-8880-exec-1] Exception processing template "question": An error happened during template parsing (template: "class path resource [templates/question.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/question.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:235) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+Caused by: java.io.FileNotFoundException: class path resource [templates/question.html] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:180) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.thymeleaf.spring5.templateresource.SpringResourceTemplateResource.reader(SpringResourceTemplateResource.java:103) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:223) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	... 48 more
+2020-02-02 20:40:32,374 ERROR [dispatcherServlet]:175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/question.html]")] with root cause
+java.io.FileNotFoundException: class path resource [templates/question.html] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:180) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.thymeleaf.spring5.templateresource.SpringResourceTemplateResource.reader(SpringResourceTemplateResource.java:103) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:223) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+2020-02-02 21:25:30,641  INFO TestApplication:55 - Starting TestApplication on dell-zx with PID 12336 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by Bale in D:\JavaProiect\SpringBoot\TestPro)
+2020-02-02 21:25:30,662  INFO TestApplication:651 - No active profile set, falling back to default profiles: default
+2020-02-02 21:25:30,840  INFO DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-02 21:25:30,842  INFO DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-02 21:25:35,355  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8880 (http)
+2020-02-02 21:25:35,384  INFO StandardService:173 - Starting service [Tomcat]
+2020-02-02 21:25:35,386  INFO StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-02-02 21:25:35,654  INFO [/]:173 - Initializing Spring embedded WebApplicationContext
+2020-02-02 21:25:35,654  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 4811 ms
+2020-02-02 21:25:35,751  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2020-02-02 21:25:36,139  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-02-02 21:25:36,357  INFO H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2020-02-02 21:25:38,484  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-02 21:25:38,616  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2020-02-02 21:25:39,128  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2020-02-02 21:25:39,237  INFO TomcatWebServer:204 - Tomcat started on port(s): 8880 (http) with context path ''
+2020-02-02 21:25:39,245  INFO TestApplication:61 - Started TestApplication in 9.839 seconds (JVM running for 15.554)
+2020-02-02 21:25:46,926  INFO [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-02 21:25:46,927  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2020-02-02 21:25:46,942  INFO DispatcherServlet:547 - Completed initialization in 14 ms
+2020-02-02 21:29:20,131  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-02-02 21:32:10,260  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.Object com.community.test.controller.CommentController.post(com.community.test.dto.CommentDTO,javax.servlet.http.HttpServletRequest)]
+2020-02-02 21:34:09,118  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.Object com.community.test.controller.CommentController.post(com.community.test.dto.CommentDTO,javax.servlet.http.HttpServletRequest)]
+2020-02-02 21:35:29,972  INFO TestApplication:55 - Starting TestApplication on dell-zx with PID 24620 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by Bale in D:\JavaProiect\SpringBoot\TestPro)
+2020-02-02 21:35:29,991  INFO TestApplication:651 - No active profile set, falling back to default profiles: default
+2020-02-02 21:35:30,105  INFO DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-02 21:35:30,106  INFO DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-02 21:35:32,108  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8880 (http)
+2020-02-02 21:35:32,127  INFO StandardService:173 - Starting service [Tomcat]
+2020-02-02 21:35:32,129  INFO StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-02-02 21:35:32,245  INFO [/]:173 - Initializing Spring embedded WebApplicationContext
+2020-02-02 21:35:32,246  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 2140 ms
+2020-02-02 21:35:32,300  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2020-02-02 21:35:32,631  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-02-02 21:35:32,644  INFO H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2020-02-02 21:35:33,246  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-02 21:35:33,326  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2020-02-02 21:35:33,553  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2020-02-02 21:35:33,616  INFO TomcatWebServer:204 - Tomcat started on port(s): 8880 (http) with context path ''
+2020-02-02 21:35:33,619  INFO TestApplication:61 - Started TestApplication in 4.478 seconds (JVM running for 7.719)
+2020-02-02 21:35:38,320  INFO [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-02 21:35:38,320  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2020-02-02 21:35:38,340  INFO DispatcherServlet:547 - Completed initialization in 20 ms
+2020-02-02 21:35:50,618  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.Object com.community.test.controller.CommentController.post(com.community.test.dto.CommentDTO,javax.servlet.http.HttpServletRequest)]
+2020-02-02 21:39:11,494  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.Object com.community.test.controller.CommentController.post(com.community.test.dto.CommentDTO,javax.servlet.http.HttpServletRequest)]
+2020-02-02 21:41:49,661  INFO TestApplication:55 - Starting TestApplication on dell-zx with PID 28448 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by Bale in D:\JavaProiect\SpringBoot\TestPro)
+2020-02-02 21:41:49,679  INFO TestApplication:651 - No active profile set, falling back to default profiles: default
+2020-02-02 21:41:49,908  INFO DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-02 21:41:49,908  INFO DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-02 21:41:53,586  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8880 (http)
+2020-02-02 21:41:53,620  INFO StandardService:173 - Starting service [Tomcat]
+2020-02-02 21:41:53,621  INFO StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-02-02 21:41:53,944  INFO [/]:173 - Initializing Spring embedded WebApplicationContext
+2020-02-02 21:41:53,948  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 4038 ms
+2020-02-02 21:41:54,097  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2020-02-02 21:41:54,674  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-02-02 21:41:54,951  INFO H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2020-02-02 21:41:56,816  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-02 21:41:57,045  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2020-02-02 21:41:57,717  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2020-02-02 21:41:57,865  INFO TomcatWebServer:204 - Tomcat started on port(s): 8880 (http) with context path ''
+2020-02-02 21:41:57,874  INFO TestApplication:61 - Started TestApplication in 9.45 seconds (JVM running for 14.867)
+2020-02-02 21:43:17,303  INFO TestApplication:55 - Starting TestApplication on dell-zx with PID 1916 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by Bale in D:\JavaProiect\SpringBoot\TestPro)
+2020-02-02 21:43:17,322  INFO TestApplication:651 - No active profile set, falling back to default profiles: default
+2020-02-02 21:43:17,447  INFO DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-02 21:43:17,448  INFO DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-02 21:43:20,017  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8880 (http)
+2020-02-02 21:43:20,028  INFO StandardService:173 - Starting service [Tomcat]
+2020-02-02 21:43:20,029  INFO StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-02-02 21:43:20,163  INFO [/]:173 - Initializing Spring embedded WebApplicationContext
+2020-02-02 21:43:20,163  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 2715 ms
+2020-02-02 21:43:20,215  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2020-02-02 21:43:20,549  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-02-02 21:43:20,558  INFO H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2020-02-02 21:43:21,172  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-02 21:43:21,255  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2020-02-02 21:43:21,495  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2020-02-02 21:43:21,569  INFO TomcatWebServer:204 - Tomcat started on port(s): 8880 (http) with context path ''
+2020-02-02 21:43:21,573  INFO TestApplication:61 - Started TestApplication in 5.128 seconds (JVM running for 8.184)
+2020-02-02 21:43:42,832  INFO [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-02 21:43:42,833  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2020-02-02 21:43:42,848  INFO DispatcherServlet:547 - Completed initialization in 15 ms
+2020-02-02 21:43:48,925  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.Object com.community.test.controller.CommentController.post(com.community.test.dto.CommentDTO,javax.servlet.http.HttpServletRequest)]
+2020-02-02 21:45:30,648  INFO TestApplication:55 - Starting TestApplication on dell-zx with PID 6544 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by Bale in D:\JavaProiect\SpringBoot\TestPro)
+2020-02-02 21:45:30,674  INFO TestApplication:651 - No active profile set, falling back to default profiles: default
+2020-02-02 21:45:30,791  INFO DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-02 21:45:30,792  INFO DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-02 21:45:33,128  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8880 (http)
+2020-02-02 21:45:33,142  INFO StandardService:173 - Starting service [Tomcat]
+2020-02-02 21:45:33,144  INFO StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-02-02 21:45:33,267  INFO [/]:173 - Initializing Spring embedded WebApplicationContext
+2020-02-02 21:45:33,268  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 2475 ms
+2020-02-02 21:45:33,329  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2020-02-02 21:45:33,636  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-02-02 21:45:33,646  INFO H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2020-02-02 21:45:34,435  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-02 21:45:34,648  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2020-02-02 21:45:35,118  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2020-02-02 21:45:35,222  INFO TomcatWebServer:204 - Tomcat started on port(s): 8880 (http) with context path ''
+2020-02-02 21:45:35,232  INFO TestApplication:61 - Started TestApplication in 5.43 seconds (JVM running for 8.969)
+2020-02-02 21:45:45,936  INFO [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-02 21:45:45,937  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2020-02-02 21:45:45,948  INFO DispatcherServlet:547 - Completed initialization in 11 ms
+2020-02-02 21:45:54,172  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-02-02 21:46:03,940  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-02-02 21:46:43,957  INFO TestApplication:55 - Starting TestApplication on dell-zx with PID 2464 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by Bale in D:\JavaProiect\SpringBoot\TestPro)
+2020-02-02 21:46:43,988  INFO TestApplication:651 - No active profile set, falling back to default profiles: default
+2020-02-02 21:46:44,122  INFO DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-02 21:46:44,123  INFO DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-02 21:46:46,941  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8880 (http)
+2020-02-02 21:46:46,960  INFO StandardService:173 - Starting service [Tomcat]
+2020-02-02 21:46:46,962  INFO StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-02-02 21:46:47,184  INFO [/]:173 - Initializing Spring embedded WebApplicationContext
+2020-02-02 21:46:47,185  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 3061 ms
+2020-02-02 21:46:47,267  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2020-02-02 21:46:47,532  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-02-02 21:46:47,689  INFO H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2020-02-02 21:46:48,516  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-02 21:46:48,633  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2020-02-02 21:46:48,965  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2020-02-02 21:46:49,055  INFO TomcatWebServer:204 - Tomcat started on port(s): 8880 (http) with context path ''
+2020-02-02 21:46:49,062  INFO TestApplication:61 - Started TestApplication in 5.815 seconds (JVM running for 8.467)
+2020-02-02 21:47:00,977  INFO [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-02 21:47:00,978  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2020-02-02 21:47:00,990  INFO DispatcherServlet:547 - Completed initialization in 12 ms
+2020-02-02 21:47:01,012  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-02-02 21:47:22,312  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.Object com.community.test.controller.CommentController.post(com.community.test.dto.CommentDTO,javax.servlet.http.HttpServletRequest)]
+2020-02-02 21:48:04,663  INFO TestApplication:55 - Starting TestApplication on dell-zx with PID 29024 (D:\JavaProiect\SpringBoot\TestPro\target\classes started by Bale in D:\JavaProiect\SpringBoot\TestPro)
+2020-02-02 21:48:04,679  INFO TestApplication:651 - No active profile set, falling back to default profiles: default
+2020-02-02 21:48:04,793  INFO DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-02 21:48:04,794  INFO DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-02 21:48:07,621  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8880 (http)
+2020-02-02 21:48:07,642  INFO StandardService:173 - Starting service [Tomcat]
+2020-02-02 21:48:07,644  INFO StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-02-02 21:48:07,843  INFO [/]:173 - Initializing Spring embedded WebApplicationContext
+2020-02-02 21:48:07,843  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 3049 ms
+2020-02-02 21:48:07,945  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2020-02-02 21:48:08,365  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-02-02 21:48:08,378  INFO H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/community'
+2020-02-02 21:48:09,482  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-02 21:48:09,682  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2020-02-02 21:48:09,966  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2020-02-02 21:48:10,051  INFO TomcatWebServer:204 - Tomcat started on port(s): 8880 (http) with context path ''
+2020-02-02 21:48:10,056  INFO TestApplication:61 - Started TestApplication in 6.246 seconds (JVM running for 8.779)
+2020-02-02 21:48:21,970  INFO [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-02 21:48:21,971  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2020-02-02 21:48:21,983  INFO DispatcherServlet:547 - Completed initialization in 12 ms
+2020-02-02 21:48:35,220  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'parentId': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'parentId': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 1, column: 10]]
