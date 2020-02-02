@@ -25,4 +25,6 @@ public interface QuestionMapper {
     void update(Question question);
 
     int ViewAdd(Integer id);
+
+    int CommentAdd(Integer id);
 }
