@@ -23,4 +23,8 @@
     <update id="update" parameterType="question">
         update QUESTION set TITLE=#{title},DESCRIPTION=#{description},GMT_MODIFY=#{gmt_modify},TAG=#{tag} where ID=#{id}
     </update>
+
+    <update id="ViewAdd" parameterType="int">
+        update QUESTION set VIEW_COUNT=VIEW_COUNT+1 where ID=#{id}
+    </update>
 </mapper>

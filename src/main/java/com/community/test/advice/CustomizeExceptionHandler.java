@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 
 @ControllerAdvice
 public class CustomizeExceptionHandler {
-    @ExceptionHandler(Exception.class)
+    @ExceptionHandler(CustomizeException.class)
     ModelAndView handleException(HttpServletRequest request, Throwable ex, Model model){
         HttpStatus status = getStatus(request);
 

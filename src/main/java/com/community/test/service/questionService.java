@@ -139,4 +139,11 @@ public class questionService {
     }
 
 
+    public int ViewAdd(Integer id) {
+        int i = questionMapper.ViewAdd(id);
+        if(i==0){
+            return 0;
+        }
+        else return 1;
+    }
 }
