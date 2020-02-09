@@ -31,4 +31,8 @@
     <update id="CommentAdd" parameterType="int">
         update QUESTION set COMMENT_COUNT=COMMENT_COUNT+1 where ID=#{id}
     </update>
+
+    <select id="getByTag" parameterType="string" resultType="question">
+        select * from QUESTION where tag like CONCAT('%',#{tag},'%');
+    </select>
 </mapper>

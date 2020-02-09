@@ -27,4 +27,6 @@ public interface QuestionMapper {
     int ViewAdd(Integer id);
 
     int CommentAdd(Integer id);
+
+    List<Question> getByTag(String tag);
 }

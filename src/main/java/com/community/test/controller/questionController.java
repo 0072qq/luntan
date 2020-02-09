@@ -11,6 +11,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Controller
@@ -25,11 +26,19 @@ public class questionController {
     public String question(@PathVariable(name = "id") Integer id, Model model){
 
         QuestionDTO questionDTO = questionService.getById(id);
+        List<QuestionDTO> lists = new ArrayList<>();
         //阅读数++
         questionService.ViewAdd(id);
-
+        String tag = questionDTO.getTag();
+        String[] arr = tag.split(",");
+        for (String tags:arr
+             ) {
+            List<QuestionDTO> list = questionService.getByTag(tags,id);
+            lists.addAll(list);
+        }
         List<CommentTranDTO> dtos = commentService.ListByQuestionId(id, CommentTypeEnum.QUESTION.getType());
 
+        model.addAttribute("questions",lists);
         model.addAttribute("questionDTO",questionDTO);
         model.addAttribute("commentDTO",dtos);
         return "question";

@@ -118,6 +118,7 @@ public class questionService {
         if (question == null){
             throw new CustomizeException("你找的问题不存在");
         }
+
         User user = userMapper.findById(question.getCreater());
         System.out.println(user);
         QuestionDTO dto = new QuestionDTO();
@@ -145,5 +146,21 @@ public class questionService {
             return 0;
         }
         else return 1;
+    }
+
+    public List<QuestionDTO> getByTag(String tag, Integer id){
+        List<Question> byTag = questionMapper.getByTag(tag);
+        List<QuestionDTO> questionDTOS = new ArrayList<>();
+        for (Question ques:byTag
+             ) {
+            if(ques.getId()!=id) {
+                User user = userMapper.findById(ques.getCreater());
+                QuestionDTO dto = new QuestionDTO();
+                BeanUtils.copyProperties(ques, dto);
+                dto.setUser(user);
+                questionDTOS.add(dto);
+            }
+        }
+        return questionDTOS;
     }
 }
