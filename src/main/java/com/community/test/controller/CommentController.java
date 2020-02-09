@@ -1,20 +1,19 @@
 package com.community.test.controller;
 
 import com.community.test.dto.CommentDTO;
+import com.community.test.dto.CommentTranDTO;
 import com.community.test.dto.resultDTO;
-import com.community.test.mapper.CommentMapper;
+import com.community.test.enums.CommentTypeEnum;
 import com.community.test.model.Comment;
 import com.community.test.model.User;
 import com.community.test.service.CommentService;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.HashMap;
+import java.util.List;
 
 @Controller
 public class CommentController {
@@ -43,5 +42,16 @@ public class CommentController {
         commentService.insert(comment);
 
         return resultDTO.errorOf(2000,"已成功评论");
+    }
+
+
+    @GetMapping("/comment/{id}")
+    @ResponseBody
+    public resultDTO<List> comments(@PathVariable(name = "id")Long id, Model model){
+        int id1 = id.intValue();
+        List<CommentTranDTO> dtoss = commentService.ListByQuestionId(id1, CommentTypeEnum.COMMENT.getType());
+        model.addAttribute("commentSub",dtoss);
+        return resultDTO.okOf(dtoss);
+
     }
 }

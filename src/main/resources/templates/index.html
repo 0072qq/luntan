@@ -8,8 +8,16 @@
     <link rel="stylesheet" href="css/yangshi.css">
     <script src="js/jquery-2.2.2.min.js"></script>
     <script src="js/bootstrap.js" type="application/javascript"></script>
-
 </head>
+<script type="application/javascript">
+    window.onload=function () {
+        var item = window.localStorage.getItem("closeable");
+        if(item=="true"){
+            window.close();
+            window.localStorage.removeItem("closeable");
+        }
+    }
+</script>
 <body>
 <div th:replace="navigation :: nav"></div>
 <div class="container-fluid main">
