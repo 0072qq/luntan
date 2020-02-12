@@ -1,6 +1,9 @@
 package com.community.test.config;
 
+import com.community.test.enums.NotificationStatusEnum;
+import com.community.test.mapper.NotificationMapper;
 import com.community.test.mapper.UserMapper;
+import com.community.test.model.NotificationExample;
 import com.community.test.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -16,6 +19,8 @@ public class SessionInterceptor implements HandlerInterceptor {
 
     @Autowired
     private UserMapper userMapper;
+    @Autowired
+    private NotificationMapper notificationMapper;
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
@@ -38,6 +43,10 @@ public class SessionInterceptor implements HandlerInterceptor {
                 }
             }
         }
+        NotificationExample example = new NotificationExample();
+        example.createCriteria().andStatusEqualTo(NotificationStatusEnum.UNREAD.getStatus());
+        long l = notificationMapper.countByExample(example);
+        request.getSession().setAttribute("count",l);
         return true;
     }
 

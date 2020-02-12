@@ -2,13 +2,14 @@ package com.community.test.service;
 
 import com.community.test.dto.CommentTranDTO;
 import com.community.test.enums.CommentTypeEnum;
+import com.community.test.enums.NotificationEnum;
+import com.community.test.enums.NotificationStatusEnum;
 import com.community.test.exception.CustomizeException;
 import com.community.test.mapper.CommentMapper;
+import com.community.test.mapper.NotificationMapper;
 import com.community.test.mapper.QuestionMapper;
 import com.community.test.mapper.UserMapper;
-import com.community.test.model.Comment;
-import com.community.test.model.CommentExample;
-import com.community.test.model.User;
+import com.community.test.model.*;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -26,6 +27,8 @@ public class CommentService {
     private QuestionMapper questionMapper;
     @Autowired
     private UserMapper userMapper;
+    @Autowired
+    private NotificationMapper notificationMapper;
 
     @Transactional
     public void insert(Comment comment) {
@@ -44,12 +47,30 @@ public class CommentService {
                 throw new CustomizeException(1004,"你回复的评论不存在");
             }
             commentMapper.insert(comment);
+            Notification notification = new Notification();
+            notification.setGmtCreate(System.currentTimeMillis());
+            notification.setNotifier(comment.getCommentator());
+            notification.setOutid(comment.getParentId().intValue());
+            notification.setReceiver(comment1.getCommentator());
+            notification.setStatus(NotificationStatusEnum.UNREAD.getStatus());
+            notification.setType(NotificationEnum.REPLY_COMMENT.getStatus());
+            notificationMapper.insert(notification);
         }else {
             //回复问题
             commentMapper.insert(comment);
             Long parentId = comment.getParentId();
             int id = parentId.intValue();
             questionMapper.CommentAdd(id);
+            Question byId = questionMapper.getById(comment.getParentId().intValue());
+            Notification notification = new Notification();
+            notification.setGmtCreate(System.currentTimeMillis());
+            notification.setNotifier(comment.getCommentator());
+            notification.setOutid(comment.getParentId().intValue());
+            notification.setReceiver(byId.getCreater());
+            notification.setStatus(NotificationStatusEnum.UNREAD.getStatus());
+            notification.setType(NotificationEnum.REPlY_QUESTION.getStatus());
+            notificationMapper.insert(notification);
+
         }
     }
 

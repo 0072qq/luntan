@@ -3,8 +3,13 @@ import	java.util.ArrayList;
 
 import com.community.test.dto.QuestionDTO;
 import com.community.test.dto.pageDTO;
+import com.community.test.enums.NotificationEnum;
+import com.community.test.enums.NotificationStatusEnum;
+import com.community.test.mapper.NotificationMapper;
 import com.community.test.mapper.QuestionMapper;
 import com.community.test.mapper.UserMapper;
+import com.community.test.model.Notification;
+import com.community.test.model.NotificationExample;
 import com.community.test.model.Question;
 import com.community.test.model.User;
 import com.community.test.service.questionService;
@@ -35,6 +40,8 @@ public class indexController {
 
     @Autowired
     private questionService service;
+    @Autowired
+    private NotificationMapper notificationMapper;
 
     @RequestMapping("/index")
     public String Welcome(HttpServletRequest res, HttpServletResponse resp,
@@ -66,6 +73,7 @@ public class indexController {
         pageDTO pages = service.getPage(page, size);
         model.addAttribute("questionList",pages);
         System.out.println(pages);
+
         return "index";
     }
 

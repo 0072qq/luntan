@@ -40,10 +40,11 @@
         </javaClientGenerator>
 
         <!-- 数据表进行生成操作 schema:相当于库名; tableName:表名; domainObjectName:对应的DO -->
-        <table tableName="user" domainObjectName="User">
-        </table>
+<!--        <table tableName="user" domainObjectName="User">-->
+<!--        </table>-->
 
-        <table tableName="comment" domainObjectName="Comment"></table>
+<!--        <table tableName="comment" domainObjectName="Comment"></table>-->
+        <table tableName="notification" domainObjectName="Notification"></table>
 
     </context>
 </generatorConfiguration>

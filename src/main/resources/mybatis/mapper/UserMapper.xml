@@ -86,7 +86,7 @@
     </if>
   </select>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
-    select 
+    select
     <include refid="Base_Column_List" />
     from USER
     where ID = #{id,jdbcType=INTEGER}
@@ -196,12 +196,12 @@
   <update id="updateByExample" parameterType="map">
     update USER
     set ID = #{record.id,jdbcType=INTEGER},
-      USERNAME = #{record.username,jdbcType=VARCHAR},
-      ACCOUNT_ID = #{record.accountId,jdbcType=INTEGER},
-      TOKEN = #{record.token,jdbcType=VARCHAR},
-      GMT_CREATE = #{record.gmtCreate,jdbcType=BIGINT},
-      GMT_MODIFIED = #{record.gmtModified,jdbcType=BIGINT},
-      AVATOR_URL = #{record.avatorUrl,jdbcType=VARCHAR}
+    USERNAME = #{record.username,jdbcType=VARCHAR},
+    ACCOUNT_ID = #{record.accountId,jdbcType=INTEGER},
+    TOKEN = #{record.token,jdbcType=VARCHAR},
+    GMT_CREATE = #{record.gmtCreate,jdbcType=BIGINT},
+    GMT_MODIFIED = #{record.gmtModified,jdbcType=BIGINT},
+    AVATOR_URL = #{record.avatorUrl,jdbcType=VARCHAR}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -240,23 +240,23 @@
       AVATOR_URL = #{avatorUrl,jdbcType=VARCHAR}
     where ID = #{id,jdbcType=INTEGER}
   </update>
-    <insert id="insertUser" parameterType="user">
+  <insert id="insertUser" parameterType="user">
         insert into USER(USERNAME,ACCOUNT_ID,TOKEN,GMT_CREATE,GMT_MODIFIED,AVATOR_URL) values (#{username},#{account_id},#{token},#{gmt_create},#{gmt_modified},#{avator_url});
     </insert>
 
-    <select id="findByToken" parameterType="String" resultType="user">
+  <select id="findByToken" parameterType="String" resultType="user">
         select * from USER where TOKEN=#{token}
     </select>
 
-    <select id="findById" parameterType="int" resultType="user">
+  <select id="findById" parameterType="int" resultType="user">
         select * from USER where ID=#{id}
     </select>
 
-    <select id="findByAccountId" parameterType="String" resultType="user">
+  <select id="findByAccountId" parameterType="String" resultType="user">
         select * from USER where ACCOUNT_ID=#{account_id}
     </select>
 
-    <update id="updateUser" parameterType="user">
+  <update id="updateUser" parameterType="user">
         update USER set USERNAME=#{username},TOKEN=#{token},GMT_MODIFIED=#{gmt_modified},AVATOR_URL=#{avator_url} where ID=#{id}
     </update>
 </mapper>

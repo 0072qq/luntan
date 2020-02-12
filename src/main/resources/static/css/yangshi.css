@@ -38,3 +38,11 @@ body{
     margin-top: 10px;
     padding-top: 15px;
 }
+
+.reply{
+    background-color: #2aabd2;
+}
+
+.reply_read{
+    background-color: pink;
+}
