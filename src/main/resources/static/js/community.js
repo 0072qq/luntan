@@ -31,6 +31,9 @@ function post() {
     }
 }
 
+function post1() {
+    window.alert("未登录");
+}
 
 function sub_comment(e) {
     var commentId = e.getAttribute("data-id");

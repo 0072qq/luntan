@@ -47,6 +47,7 @@ public class CommentService {
                 throw new CustomizeException(1004,"你回复的评论不存在");
             }
             commentMapper.insert(comment);
+
             Notification notification = new Notification();
             notification.setGmtCreate(System.currentTimeMillis());
             notification.setNotifier(comment.getCommentator());
